@@ -1,0 +1,42 @@
+{
+  "name": "babybot",
+  "version": "4.0.0",
+  "description": "Follow instagram @iamramlan_",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "author": "ramlanid",
+  "dependencies": {
+    "@adiwajshing/baileys": "^3.5.0",
+    "@vitalets/google-translate-api": "^7.0.0",
+    "awesome-phonenumber": "^2.65.0",
+    "axios": "^0.21.1",
+    "chalk": "^4.1.1",
+    "cheerio": "^1.0.0-rc.9",
+    "figlet": "^1.5.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "^4.0.0",
+    "jsdom": "^16.5.3",
+    "moment-timezone": "^0.5.33",
+    "node-fetch": "^2.6.1",
+    "parse-ms": "^2.1.0",
+    "parse-ms-js": "^1.2.0",
+    "qrcode": "^1.4.4",
+    "request": "^2.88.2",
+    "yt-search": "^2.8.0",
+    "ytdl-core": "^4.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ramlan404/babybot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ramlan404/babybot/issues"
+  },
+  "homepage": "https://github.com/Ramlan404/babybot#readme"
+}
