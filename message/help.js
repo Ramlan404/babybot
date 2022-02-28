@@ -40,7 +40,6 @@ exports.simpleMenu = (prefix) => {
 ❏ ${prefix}attp
 ❏ ${prefix}nulis
 ❏ ${prefix}limit
-❏ ${prefix}grupbot
 `
 }
 
