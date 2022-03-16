@@ -8,8 +8,7 @@ ${mundur}
 🤖 Bot Name : ${botName}
 📆 Tanggal : ${tanggal}
 ⌚ Jam : ${jam}
-⏳ Runtime
-${runtime}
+⏳ Runtime : ${runtime}
 
 *USER INFO*
 
@@ -31,6 +30,10 @@ ${runtime}
 ❏ ${prefix}menurandom
 ❏ ${prefix}menusearch
 ❏ ${prefix}menuowner
+==============================
+MOHON JANGAN SEPAM BOTZ YA BERI ZEDAH 5 DETIK.
+BOT INI DI RANCANG BUAT JUALAN DAN BUAT BERBISNIS ONLINE
+==============================
 `
 }
 
@@ -94,7 +97,7 @@ exports.storeMenu = (prefix) => {
 ❏ ${prefix}kurang
 ❏ ${prefix}kali
 ❏ ${prefix}bagi
-❏ y < reply chat >
+❏ p < reply chat >
 ❏ d < reply chat >
 `
 }
