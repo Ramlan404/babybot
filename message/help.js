@@ -1,7 +1,7 @@
 exports.menu = (ucapan, pushname, mundur, ownerName, botName, tanggal, jam, runtime, isOwner, isPremium, sisalimit, limitCount, sisaGlimit, gcount, expired, prefix) => {
     return `${ucapan} ${pushname}
     
-Hitung Mundur Bulan Ramadhan
+Hitung Mundur Lebaran
 ${mundur}
 
 👑 Creator : ${ownerName}
@@ -23,12 +23,15 @@ ${runtime}
 
 ❏ ${prefix}menusimple
 ❏ ${prefix}menusticker
+❏ ${prefix}menugabut
 ❏ ${prefix}menugroup
 ❏ ${prefix}menusistem
 ❏ ${prefix}menustore
 ❏ ${prefix}menudownload
 ❏ ${prefix}menugame
 ❏ ${prefix}menurandom
+❏ ${prefix}menutextpro
+❏ ${prefix}menuphotooxy
 ❏ ${prefix}menusearch
 ❏ ${prefix}menuowner
 `
@@ -39,7 +42,7 @@ exports.simpleMenu = (prefix) => {
 ❏ ${prefix}sticker
 ❏ ${prefix}attp
 ❏ ${prefix}nulis
-❏ ${prefix}limit
+❏ ${prefix}hartatahta
 `
 }
 
@@ -54,6 +57,7 @@ exports.stickerMenu = (prefix) => {
 
 exports.groupMenu = (prefix) => {
     return `
+❏ ${prefix}afk
 ❏ ${prefix}add
 ❏ ${prefix}kick
 ❏ ${prefix}welcome
@@ -66,8 +70,8 @@ exports.groupMenu = (prefix) => {
 ❏ ${prefix}delsetleft
 ❏ ${prefix}mute
 ❏ ${prefix}hidetag
-❏ ${prefix}opengrup
-❏ ${prefix}closegrup
+❏ ${prefix}open
+❏ ${prefix}close
 ❏ ${prefix}checksewa
 `
 }
@@ -94,7 +98,7 @@ exports.storeMenu = (prefix) => {
 ❏ ${prefix}kurang
 ❏ ${prefix}kali
 ❏ ${prefix}bagi
-❏ y < reply chat >
+❏ p < reply chat >
 ❏ d < reply chat >
 `
 }
@@ -113,6 +117,7 @@ exports.gameMenu = (prefix) => {
 ❏ ${prefix}family100
 ❏ ${prefix}tictactoe
 ❏ ${prefix}suit
+❏ ${prefix}akinator
 ❏ ${prefix}topglobal
 ❏ ${prefix}toplocal
 `
@@ -122,10 +127,15 @@ exports.randomMenu = (prefix) => {
     return `
 ❏ ${prefix}asupan
 ❏ ${prefix}couple
-❏ ${prefix}meme1
-❏ ${prefix}meme2
+❏ ${prefix}meme
+❏ ${prefix}waifu
 ❏ ${prefix}gachacewek
 ❏ ${prefix}gachacowok
+❏ ${prefix}quotes
+❏ ${prefix}bucin
+❏ ${prefix}pantun
+❏ ${prefix}katabijak
+❏ ${prefix}faktaunik
 `
 }
 
@@ -134,12 +144,89 @@ exports.searchMenu = (prefix) => {
 ❏ ${prefix}nickff 
 ❏ ${prefix}nickml
 ❏ ${prefix}nickpubg
+❏ ${prefix}nickdomino
+`
+}
+
+exports.gabutMenu = (prefix) => {
+    return `
+❏ ${prefix}apakah
+❏ ${prefix}kapankah
+❏ ${prefix}bisakah
+❏ ${prefix}hobby
+❏ ${prefix}rate
+❏ ${prefix}truth
+❏ ${prefix}dare
+❏ ${prefix}cekbapak
+❏ ${prefix}seberapagay
+❏ ${prefix}jadian
+❏ ${prefix}ganteng
+❏ ${prefix}cantik
+`
+}
+
+exports.textproMenu = (prefix) => {
+    return `
+❏ ${prefix}neon
+❏ ${prefix}matrix
+❏ ${prefix}blackpink
+❏ ${prefix}halloween
+❏ ${prefix}thundername
+❏ ${prefix}devilwings
+❏ ${prefix}cloudtext
+❏ ${prefix}bloodtext
+❏ ${prefix}bloodtext2
+❏ ${prefix}steeltext
+❏ ${prefix}lavatext
+❏ ${prefix}toxiclogo
+❏ ${prefix}dropwater
+❏ ${prefix}metaldark
+❏ ${prefix}sandwrite
+❏ ${prefix}3dwater
+❏ ${prefix}graffiti
+❏ ${prefix}graffiti2
+❏ ${prefix}phlogo
+❏ ${prefix}glitch
+❏ ${prefix}graffiti3
+❏ ${prefix}layeredtext
+❏ ${prefix}vintage
+❏ ${prefix}3dspace
+❏ ${prefix}stonetext
+❏ ${prefix}avengers
+❏ ${prefix}marvellogo
+❏ ${prefix}3dmetal
+❏ ${prefix}lionlogo
+❏ ${prefix}wolflogo
+❏ ${prefix}ninjalogo
+`
+}
+
+exports.photooxyMenu = (prefix) => {
+    return `
+❏ ${prefix}shadowtext
+❏ ${prefix}smoketext
+❏ ${prefix}romancetext
+❏ ${prefix}carvedwood
+❏ ${prefix}harrypotter
+❏ ${prefix}flamingtext
+❏ ${prefix}falleaves
+❏ ${prefix}underwater
+❏ ${prefix}wolfmetal
+❏ ${prefix}woodboard
+❏ ${prefix}woodheart
+❏ ${prefix}undergrass
+❏ ${prefix}coffetext
+❏ ${prefix}lovetext
+❏ ${prefix}burnpaper
+❏ ${prefix}lovemessage
+❏ ${prefix}pubglogo
 `
 }
 
 exports.ownerMenu = (prefix) => {
     return `
 ❏ ${prefix}bc
+❏ ${prefix}bcsewa
 ❏ ${prefix}join
 ❏ ${prefix}exif
 ❏ ${prefix}self
