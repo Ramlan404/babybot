@@ -1,8 +1,5 @@
-exports.menu = (ucapan, pushname, mundur, ownerName, botName, tanggal, jam, runtime, isOwner, isPremium, sisalimit, limitCount, sisaGlimit, gcount, expired, prefix) => {
+exports.menu = (ucapan, pushname, ownerName, botName, tanggal, jam, runtime, isOwner, isPremium, sisalimit, limitCount, sisaGlimit, gcount, expired, prefix) => {
     return `${ucapan} ${pushname}
-    
-Hitung Mundur Lebaran
-${mundur}
 
 👑 Creator : ${ownerName}
 🤖 Bot Name : ${botName}
@@ -40,6 +37,7 @@ ${runtime}
 exports.simpleMenu = (prefix) => {
     return `
 ❏ ${prefix}sticker
+❏ ${prefix}toimg
 ❏ ${prefix}attp
 ❏ ${prefix}nulis
 ❏ ${prefix}hartatahta
