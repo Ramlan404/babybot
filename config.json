@@ -1,13 +1,13 @@
 {
-  "ownerNumber": "62855xxxx@s.whatsapp.net",
+  "ownerNumber": "6281340446879@s.whatsapp.net",
   "botName": "BABYBOT V5",
-  "ownerName": "Ramlan ID",
+  "ownerName": "AkbarCell",
   "footer": "*2022 © BABYBOT*",
   "apikey": "APIKEY",
   "pathThumb": "./media/logo.jpg",
-  "sessionName": "ramlanid",
-  "limitCount": 30,
-  "gamewaktu": 60,
+  "sessionName": "akbarcell",
+  "limitCount": 100,
+  "gamewaktu": 90,
   "gcount": {
     "prem": 50,
     "user": 20
