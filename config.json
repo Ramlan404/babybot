@@ -1,15 +1,15 @@
 {
-  "ownerNumber": "62855xxxx@s.whatsapp.net",
-  "botName": "BABYBOT V5",
-  "ownerName": "Ramlan ID",
+  "ownerNumber": "628889312587@s.whatsapp.net",
+  "botName": "NisaaBot ",
+  "ownerName": "Han",
   "footer": "*2022 © BABYBOT*",
-  "apikey": "APIKEY",
+  "apikey": "saa",
   "pathThumb": "./media/logo.jpg",
   "sessionName": "ramlanid",
   "limitCount": 30,
   "gamewaktu": 60,
   "gcount": {
     "prem": 50,
-    "user": 20
+    "user": 30
   }
 }
