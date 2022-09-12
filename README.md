@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/Ramlan404/Ramlan404/main/baby.jpg" alt="BABY BOT" width="128" height="128"/>
+<img src="https://raw.githubusercontent.com/Ramlan404/Ramlan404/main/mylogo.jpg" alt="BABY BOT" width="128" height="128"/>
 </p>
 <p align="center">
 <a href="#"><img title="BABY BOT" src="https://img.shields.io/badge/BABY BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
@@ -89,8 +89,7 @@ webpmux -version
 - [Saweria](https://saweria.co/ramlanid)
 
 # Features
-- Cek [disini](https://github.com/Ramlan404/babybot/blob/main/message/help.js)
+- Cek [disini](https://github.com/Ramlan404/babybot/blob/main/help.js)
 
 # Thanks to
 * [`Baileys`](https://github.com/adiwajshing/Baileys)
-* [`Xinz-Team`](https://github.com/Xinz-Team)
