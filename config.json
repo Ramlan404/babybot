@@ -1,15 +1,24 @@
 {
-  "ownerNumber": "62855xxxx@s.whatsapp.net",
-  "botName": "BABYBOT V5",
-  "ownerName": "Ramlan ID",
-  "footer": "*2022 © BABYBOT*",
-  "apikey": "APIKEY",
-  "pathThumb": "./media/logo.jpg",
-  "sessionName": "ramlanid",
-  "limitCount": 30,
-  "gamewaktu": 60,
-  "gcount": {
-    "prem": 50,
-    "user": 20
-  }
+   "sessionName": "ramlanid",
+   "ownerNumber": "6285559240360@s.whatsapp.net",
+   "ownerName": "Ramlan ID",
+   "botName": "BABY BOT",
+   "footer": "BABYBOT © 2022",
+   "butName": "YouTube",
+   "butLink": "https://youtube.com/c/RAMLANID",   
+   "pathThumb": "./temp/logo.jpg",
+   "pathQris": "./temp/qris.jpg",
+   "packname": "IG :",
+   "author": "iamramlan_",
+   "mess": {
+    "wait": "*Tunggu permintaan anda sedang diproses!*",
+    "error": "*Maaf terjadi kesalahan!*",
+    "lv": "Link yang kamu berikan tidak valid",
+    "OnlyGrup": "Perintah ini hanya bisa digunakan di grup",
+    "OnlyPM": "Perintah ini hanya bisa digunakan di private message",
+    "GrupAdmin": "Perintah ini hanya bisa digunakan oleh Admin Grup",
+    "BotAdmin": "Bot Harus menjadi admin",
+    "OnlyOwner": "Perintah ini hanya dapat digunakan oleh owner bot",
+    "OnlyPrem": "Perintah ini khusus member premium"
+   }
 }
